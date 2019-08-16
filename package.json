@@ -1,0 +1,35 @@
+{
+  "name": "mtl-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ucf-scripts start --homepage=yzoneApp",
+    "build": "ucf-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/ucf-webapp.git"
+  },
+  "author": "Kvkens(yueming@yonyou.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuap-design/ucf-webapp/issues"
+  },
+  "homepage": "https://github.com/iuap-design/ucf-webapp#readme",
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "ucf-scripts": "^1.1.5",
+    "postcss-px2rem-exclude": "0.0.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "antd-mobile": "^2.2.11",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "mirrorx": "^0.2.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
