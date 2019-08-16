@@ -1,3 +1,10 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-15 16:32:11
+ * @LastEditTime: 2019-08-16 10:02:15
+ * @LastEditors: Please set LastEditors
+ -->
 # 基于 UCF 的大型企业应用开发
 
 开发文档：[ucf-web](https://www.yuque.com/ucf-web)
@@ -38,8 +45,6 @@ $ ucf -v
 $ ucf -h
 ```
 
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-install.gif)
-
 ## 3. 创建
 
 安装完成全局后使用下面命令：
@@ -58,14 +63,6 @@ $ ucf new app
 # 查看现有微服务工程名
 $ ucf list
 ```
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-init.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-init-project.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-new.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-list.gif)
 
 
 ## 4. 启动
@@ -93,9 +90,6 @@ $ npm run build
     "ucf-scripts": "^1.0.2"
   }
 ```
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-start.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-cli-build.gif)
 
 2. 通过全局命令启动
 
@@ -111,18 +105,13 @@ $ ucf-scripts start
 $ ucf-scripts build
 ```
 
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-scripts-install.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-scripts-start.gif)
-
-![image](http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/uba/gui/img/ucf-scripts-build.gif)
 
 ## 5. 访问
 
-启动器`bootList`的模块名字就是我们的访问路径，例如：`ucf-apps/demo-app-org`下的文件夹就是我们运行后的模块路径
+启动器`bootList`的模块名字就是我们的访问路径，例如：`ucf-apps/yzoneApp`下的文件夹就是我们运行后的模块路径
 
 ```bash
-http://127.0.0.1:3000/demo-app-org
+http://127.0.0.1:3000/yzoneApp
 ```
 程序会根据你所设置的`bootList`来扫描启动的，`bootList:true`表示全部开启，`bootList:[]`指定模块启动
 ```js
@@ -130,14 +119,14 @@ http://127.0.0.1:3000/demo-app-org
 bootList: true,
 // 启动这两个模块，启动调试、构建
 bootList: [
-    "demo-app-org",
+    "yzoneApp",
     "demo-app-staff"
 ],
 ```
 ```bash
 # 微服务工程模块
 ucf-apps
-├── demo-app-org
+├── yzoneApp
 ├── demo-app-staff
 ├── temp-app-normal
 └── temp-app-router
