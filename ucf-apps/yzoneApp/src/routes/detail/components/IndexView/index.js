@@ -2,14 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-15 15:29:33
- * @LastEditTime: 2019-08-15 17:25:21
- * @LastEditors: Please set LastEditors
- */
-/*
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-08-15 15:29:33
- * @LastEditTime: 2019-08-16 01:57:24
+ * @LastEditTime: 2019-08-16 13:34:49
  * @LastEditors: Please set LastEditors
  */
 import React, {Component} from 'react'
